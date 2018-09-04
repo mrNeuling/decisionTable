@@ -1,0 +1,10 @@
+App\DTO\Flight:
+    properties:
+        countryCode:
+            - NotBlank: ~
+            - Country: ~
+        status:
+            - notBlank: ~
+        detail:
+            - notBlank: ~
+            - Type: integer
